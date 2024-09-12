@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Jost";
+  src: url("./assets/fonts/Jost-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 209, 209);
+  margin: 1rem 2em;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.configure {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 3em;
+
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .configure {
+    grid-template-columns: 1fr;
+  }
+}

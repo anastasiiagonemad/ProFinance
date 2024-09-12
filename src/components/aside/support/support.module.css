@@ -1,0 +1,41 @@
+.support {
+    margin: 0.5em 0;
+    background-color: #161d2c;
+    color: white;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.title {
+    font-size: 0.875em;
+}
+
+.info h4 {
+    color: #283148;
+}
+
+.info {
+    font-size: 0.7em;
+    line-height: 5px;
+}
+
+.infodouble {
+    display: flex;
+    flex-direction: space-between;
+    gap: 10px;
+}
+
+.links {
+    margin-top: 2em;
+    color: #283148;
+}
+
+.links p {
+    line-height: 20px;
+    border-bottom: 1px solid #283148;
+    font-size: 0.875em;
+}
+
+.links p:last-child {
+    border: none;
+}

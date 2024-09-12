@@ -1,0 +1,74 @@
+.menu {
+    background-color: #161d2c;
+    border-radius: 15px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    padding: 0 2em 0 2em;
+}
+
+.menu img {
+    width: 1em;
+}
+
+.menuTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 2vw;
+}
+
+.menuTitle h2:first-child {
+    background-color: #287efd;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background: #283148;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button button {
+    background: none;
+    border: none;
+    color: #54607f;
+    cursor: pointer;
+}
+
+.links {
+    margin: 0;
+    padding: 1em;
+    animation: animateOpen 1.3s;
+}
+
+.link {
+    display: flex;
+    gap: 10px;
+    color: white;
+    background-color: #283148;
+    padding: 0 0.5em;
+    border-radius: 15px;
+    margin: 0.5em 0;
+    cursor: pointer;
+}
+
+@keyframes animateOpen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

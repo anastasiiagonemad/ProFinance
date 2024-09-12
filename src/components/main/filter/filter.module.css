@@ -1,0 +1,188 @@
+.filter img {
+    width: 15px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.instruction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-radius: 50px;
+    background-color: #161d2c;
+    padding: 0 0.5em;
+    cursor: pointer;
+    height: 2em;
+}
+
+.instruction p {
+    font-size: 0.7em;
+}
+
+.formInputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.art {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background-color: white;
+    padding: 0 0.5em;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    font-size: 0.7em;
+}
+
+.art input {
+    border: none;
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0.3em 0.2em;
+    font-family: "Jost", sans-serif;
+}
+.art input::placeholder {
+    color: rgb(195, 195, 195);
+    font-size: 0.7em;
+    font-family: "Jost", sans-serif;
+}
+
+.open {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 0.7em;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.open p {
+    color: rgb(195, 195, 195);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+.forming {
+    background: #287efd;
+    border: none;
+    padding: 1em;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.export {
+    background: #161d2c;
+    border: none;
+    padding: 1em;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.loadingline {
+    display: flex;
+    gap: 15em;
+    margin-top: 2em;
+    border-top: 1px solid rgb(134, 134, 134);
+    border-bottom: 1px solid rgb(134, 134, 134);
+    padding: 1em 0;
+}
+
+.changes {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.buttonData {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+}
+
+.delete {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+    background-color: #161d2c;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 15px;
+}
+
+.loadingMessage {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.layout {
+    height: 100h;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modalButtons {
+    display: flex;
+    gap: 2em;
+}
+
+.modalIn {
+    background-color: #161d2c;
+    padding: 4em 2em;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.modalButton {
+    border: none;
+    background-color: #287efd;
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    cursor: pointer;
+}

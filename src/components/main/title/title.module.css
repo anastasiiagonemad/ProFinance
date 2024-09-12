@@ -1,0 +1,83 @@
+.title img {
+    width: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.3em 1em;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+}
+
+.profileTitle {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.date {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    background-color: rgba(237, 245, 255, 0.5);
+    color: #287efd;
+    padding: 0 0.5em;
+    border-radius: 15px;
+}
+
+.date input {
+    margin-top: 2px;
+    border: none;
+    color: #287efd;
+    background: rgba(237, 245, 255, 0.5);
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+}
+
+.date input::-webkit-calendar-picker-indicator,
+.date input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.buttonWhite button {
+    background: none;
+    border: 1px solid black;
+    padding: 0.5em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttonOrange {
+    display: flex;
+    align-items: center;
+    background: #ff6a17;
+    border-radius: 15px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.buttonOrange button {
+    background: #ff6a17;
+
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
